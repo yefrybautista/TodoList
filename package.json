@@ -1,0 +1,42 @@
+{
+  "name": "basic-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack server --open"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "bulma": "^0.9.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "sass": "^1.32.13",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
